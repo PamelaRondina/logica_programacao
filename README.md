@@ -1,4 +1,4 @@
-# logica_programacao
+# Lógica de Programação
 
 Baixar sublime
 
@@ -12,13 +12,25 @@ No navegador Chrome, `Ctrl+O` e abra o arquivo anterior
  Para incluir um link:
  Visitando **< a href="http://www.site.com.br" >** aqui **< /a >**!
 
+Para criar alertas:
+
+- [x] `meta charset="UTF-8"` código para o programa aceitar acentuações
+- [x] **< script >** iniciar a linguagem JavaScript dentro do Html
+- [x] `alert` criar um popup
+- [x] **/** utilizado para finalizar um comando aberto anteriormente    
+
+```javascript
+<meta charset="UTF-8">
+<script>
+    alert("Aqui teremos um popup!");
+</script>
+```
 
 
 
-
-Comandos|Descrição
--|-
-/ | Para fechar
+Comandos: Html | Descrição
+:-|:-
+/ | Fechar
 < a > | Âncora
 < br > | Pular linha
 < h1 > | Título
@@ -32,8 +44,7 @@ F12 + Console | Para localizar um problema no código
 ------------------------------------|--------------------------------------------------------
 < meta charset = "UTF-8"> | Utilizar em navegador para acentuação
 
-Comandos em JavaScript
-
+Comandos: JavaScript | Descrição
 -|-
 < script > | Iniciar linguagem JavaScript
 alert | Cria um *popup* de alerta
