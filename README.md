@@ -26,8 +26,9 @@ Comandos|Descrição
  href = | Atributo
  < script > | Iniciar linguagem JavaScript
  ------------------------------------|-------------------------------------
- Ctrl+S|Salvar
- Ctrl+R|Atualizar Página
+ Ctrl+S | Salvar
+ Ctrl+R | Atualizar Página
+ Ctrl+O | Abrir arquivo no navegador
  F12 + Console|Para localizar um problema no código
 ------------------------------------|-------------------------------------
  < meta charset = "UTF-8">|Utilizar em navegador para acentuação
