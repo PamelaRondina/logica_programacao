@@ -17,20 +17,24 @@ No navegador Chrome, `Ctrl+O` e abra o arquivo anterior
 
 
 Comandos|Descrição
- -|-
- / | Para fechar
- < a >| Âncora
- < br >|Quebra
- < h1 > |Título
- ------------------------------------|-------------------------------------
- href = | Atributo
- < script > | Iniciar linguagem JavaScript
- ------------------------------------|-------------------------------------
- Ctrl+S | Salvar
- Ctrl+R | Atualizar Página
- Ctrl+O | Abrir arquivo no navegador
- F12 + Console|Para localizar um problema no código
-------------------------------------|-------------------------------------
- < meta charset = "UTF-8">|Utilizar em navegador para acentuação
- 
+-|-
+/ | Para fechar
+< a > | Âncora
+< br > | Pular linha
+< h1 > | Título
+------------------------------------|--------------------------------------------------------
+href = | Atributo
+------------------------------------|--------------------------------------------------------
+Ctrl+S | Salvar
+Ctrl+R | Atualizar Página
+Ctrl+O | Abrir arquivo no navegador
+F12 + Console | Para localizar um problema no código
+------------------------------------|--------------------------------------------------------
+< meta charset = "UTF-8"> | Utilizar em navegador para acentuação
+
+Comandos em JavaScript
+
+-|-
+< script > | Iniciar linguagem JavaScript
+alert | Cria um *popup* de alerta
 
