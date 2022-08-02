@@ -10,11 +10,23 @@ Conforme a convenção devemos:
 > O sistema até reconhece a tag sendo digitada em letra MAIÚSCULA, mas o correto é digitar em minúscula. 
 
 **Incluir título**
+* Dentro de HTML:
 - [x] `<h1>`  início título
 - [x] `</h1>` final título
  
 ```html
 <h1>Aqui será o título!</h1>
+```
+
+* Dentro de JS com HTML
+
+- [x] `document.write` dentro de JS escrever em HTML
+- [x] `("<h1>Título</h1>")` em HTMl dentro de JS, nas **(" ")**
+
+```html
+<script>
+    document.write("<h1>Título</h1>");
+</script>
 ```
 
  **Incluir link**
@@ -42,15 +54,14 @@ Conforme a convenção devemos:
 - [x] `<script>` início JavaScript
 - [x] Aqui vamos escrever os códigos dinâmicos
 - [x] `</script>` final JavaScript
-
-- [x] `document.write` dentro de JS escrever em html
+- [x] `document.write` dentro de JS escrever em HTML
+- [x] `("<h1>Título</h1>")` em HTMl dentro de JS, nas **(" ")**
 
 ```html
-<meta charset="UTF-8">
-
 <script>
     document.write("parâmetro 1");
     document.write(18);
+    document.write("<h1>Título</h1>");
 </script>
 ```
 > textos são em **(" ")** e números apenas em **( )**
