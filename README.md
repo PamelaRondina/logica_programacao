@@ -1,15 +1,25 @@
 # Lógica de Programação
 
-Baixar sublime
+**Regras da convenção**
+Conforme a convenção devemos:
+- [x] arquivos devem ser salvos `desta_forma.html`
 
-Abrir um diretorio *logica* (sem acentos e em letra minúscula)
+Dentro de < > são as tags, conforme a convenção, são feitas em letras minúsculas
 
-No programa sublime `Ctrl+S`= Salvar como, salvar como `primeiro_teste.html`
+> O sistema reconhece a tag sendo digitada em letra MAIÚSCULA, 
 
 No navegador Chrome, `Ctrl+O` e abra o arquivo anterior
 
- Para incluir um link:
- Visitando **< a href="http://www.site.com.br" >** aqui **< /a >**!
+ **Incluir link**
+- [x] `<a>` início da âncora
+- [x] 
+- [x] `</a>` final da âncora
+ 
+ ```html
+ Visitando <a href = "http://www.site.com.br">qui **< /a >**!
+ ```
+
+
 
 **Depurador (*debugger*)**
 
@@ -26,13 +36,19 @@ No navegador Chrome, `Ctrl+O` e abra o arquivo anterior
 **Criar alertas**
 
 - [x] `meta charset="UTF-8"` código para o programa aceitar acentuações
-- [x] **< script >** iniciar a linguagem JavaScript dentro do Html
+- [x] `<script>` iniciar a linguagem JavaScript dentro do Html
 - [x] `alert` criar um popup
 - [x] `("texto aqui")` deve estar entre **( )** e **" "**
 - [x] **;** *sempre* encerrar a linha com ;   
-- [x] **/** utilizado para finalizar um comando aberto anteriormente 
+- [x] `</script>` finalizar a linguagem JavaScript 
 
+```JavaScript
+<meta charset="UTF-8">
 
+<script>
+alert("Este é um popup feito com JavaScript");
+</script>
+```
 ________________________________________
 
 Comandos: Html | Descrição
