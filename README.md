@@ -38,10 +38,33 @@ Conforme a convenção devemos:
 
 ![image](https://user-images.githubusercontent.com/108991648/182258030-576ee244-b907-44cf-885f-8fd637cfaca4.png)
 
-**Mundo JavaScript**
-- [x] `<script>` início
+**Mundos**
+- [x] `<script>` início JavaScript
 - [x] Aqui vamos escrever os códigos dinâmicos
-- [x] `</script>` final
+- [x] `</script>` final JavaScript
+
+- [x] `document.write` dentro de JS escrever em html
+
+```html
+<meta charset="UTF-8">
+
+<script>
+    document.write("parâmetro 1");
+    document.write(18);
+</script>
+```
+> textos são em **(" ")** e números apenas em **( )**
+
+Se tivermos:
+
+* string + string = string
+("10") + ("2") = 102
+<br>
+* número + número = número
+(10) + (2) = 12
+<br>
+* string + número = string
+("10") + (2) = 102
 
 **Criar alertas**
 
