@@ -3,23 +3,32 @@
 **Regras da convenção**
 Conforme a convenção devemos:
 - [x] arquivos devem ser salvos `desta_forma.html`
+- [x] **< >** são tags, são feitas em letras minúsculas
+- [x] As tags são abertas e fechadas com **/**, `<h1>` e `</h1>`
+- [x] Em JavaScript tudo em minúsculo
 
-Dentro de < > são as tags, conforme a convenção, são feitas em letras minúsculas
+> O sistema até reconhece a tag sendo digitada em letra MAIÚSCULA, mas o correto é digitar em minúscula. 
 
-> O sistema reconhece a tag sendo digitada em letra MAIÚSCULA, 
-
-No navegador Chrome, `Ctrl+O` e abra o arquivo anterior
+**Incluir título**
+- [x] `<h1>`  início título
+- [x] `</h1>` final título
+ 
+```html
+<h1>Aqui será o título!</h1>
+```
 
  **Incluir link**
-- [x] `<a>` início da âncora
-- [x] 
-- [x] `</a>` final da âncora
+- [x] `<a>` início âncora
+- [x] `href="texto"` atributo para incluir o link, dentro da 1ª âncora
+- [x] palavra **aqui**, cliclando levará para outro site
+- [x] `</a>` final âncora
  
+ `<a>aqui</a>!`
+`<a href="http://www.site.com.br">aqui</a>`
+
  ```html
- Visitando <a href = "http://www.site.com.br">qui **< /a >**!
+ Visitando o site <a href="http://www.site.com.br">aqui</a>!
  ```
-
-
 
 **Depurador (*debugger*)**
 
@@ -31,6 +40,7 @@ No navegador Chrome, `Ctrl+O` e abra o arquivo anterior
 
 **Mundo JavaScript**
 - [x] `<script>` início
+- [x] Aqui vamos escrever os códigos dinâmicos
 - [x] `</script>` final
 
 **Criar alertas**
@@ -38,7 +48,7 @@ No navegador Chrome, `Ctrl+O` e abra o arquivo anterior
 - [x] `meta charset="UTF-8"` código para o programa aceitar acentuações
 - [x] `<script>` iniciar a linguagem JavaScript dentro do Html
 - [x] `alert` criar um popup
-- [x] `("texto aqui")` deve estar entre **( )** e **" "**
+- [x] `("parâmetro")` deve estar entre **( )** e **" "**
 - [x] **;** *sempre* encerrar a linha com ;   
 - [x] `</script>` finalizar a linguagem JavaScript 
 
@@ -49,10 +59,14 @@ No navegador Chrome, `Ctrl+O` e abra o arquivo anterior
 alert("Este é um popup feito com JavaScript");
 </script>
 ```
-________________________________________
+_____
+
+No navegador Chrome, `Ctrl+O` e abra o arquivo anterior
+
 
 Comandos: Html | Descrição
 :-|:-
+< > | São tags
 / | Fechar
 < a > | Âncora
 < br > | Pular linha
@@ -66,9 +80,7 @@ Ctrl+O | Abrir arquivo no navegador
 F12 + Console | Para localizar um problema no código
 ------------------------------------|--------------------------------------------------------
 < meta charset = "UTF-8"> | Utilizar em navegador para acentuação
-
-Comandos: JavaScript | Descrição
--|-
+**Comandos: JavaScript** | **Descrição**
 < script > | Iniciar linguagem JavaScript
 alert | Cria um *popup* de alerta
 
