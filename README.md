@@ -1,8 +1,9 @@
 # Lógica de Programação
 
-**Regras da convenção**
+**Regras da Convenção**
+
 Conforme a convenção devemos:
-- [x] arquivos devem ser salvos `desta_forma.html`
+- [x] Salvar arquivos `desta_forma.html`
 - [x] **< >** são tags, são feitas em letras minúsculas
 - [x] As tags são abertas e fechadas com **/**, `<h1>` e `</h1>`
 - [x] Em JavaScript tudo em minúsculo
@@ -76,6 +77,11 @@ Se tivermos:
 <br>
 * string + número = string
 ("10") + (2) = 102
+<br>
+* strings + números = string
+("A" + "B" + 20 + 10 + "C" + (5 + 10) + "D") = AB2010C15D
+
+> strings: ou textos, estarão em **" "**
 
 **Criar alertas**
 
