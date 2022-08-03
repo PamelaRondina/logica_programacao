@@ -72,16 +72,16 @@ Conforme a convenção devemos:
 Se tivermos:
 
 * string + string = string
-("10") + ("2") = 102
-
+   * ("10") + ("2") = 102
+<br>
 * número + número = número
-(10) + (2) = 12
-
+   * (10) + (2) = 12
+<br>
 * string + número = string
-("10") + (2) = 102
-
+   * ("10") + (2) = 102
+<br>
 * strings + números = string
-("A" + "B" + 20 + 10 + "C" + (5 + 10) + "D") = AB2010C15D
+   * ("A" + "B" + 20 + 10 + "C" + (5 + 10) + "D") = AB2010C15D
 
 > strings: ou textos, estarão em **" "**
 

@@ -1,3 +1,49 @@
+**Atividade: 01_primeiro_teste.html**
+
+No primeiro teste, aprendemos:
+- [x] Incluir título `<h1> </h1>`
+- [x] Pular linha `<br>`
+- [x] Incluir link `<a href="link">aqui</a>!`
+- [x] Chamar e fechar linguagem JavaScript `<script> </script>` 
+- [x] Chamar um popup `alert`
+
+```html
+<h1>Meu primeiro teste!</h1>
+<br>
+Seria isso um programa? Descubra visitando o Alura <a href="http://www.alura.com.br">aqui</a>!
+
+<script>
+alert("Isso sim é um programa");
+</script>
+```
+Resultado:
+
+**Pop Up**
+![image](https://user-images.githubusercontent.com/108991648/182516300-c059ffa6-12e6-4e21-9026-126653edc865.png)
+
+![image](https://user-images.githubusercontent.com/108991648/182516389-f636c45d-65c4-4278-a28c-410090bd25c4.png)
+
+______
+
+**Atividade: calculando_gastos.html**
+
+Realizar a conta para localizar a média: 200 + 100 + 300 + 400 / 4:
+
+```html
+<meta charset="UTF-8">
+<br><br>
+
+<script>
+    document.write("A média do valor gasto com as viagens é ");
+    document.write((200 + 100 + 300 + 400) / 4);
+</script>
+```
+Resultado:
+
+![image](https://user-images.githubusercontent.com/108991648/182516769-bac68a2f-8b45-4b09-9b19-d62600158f5e.png)
+
+______
+
 **Atividade: document_write.html**
 
 Duas programadoras:
