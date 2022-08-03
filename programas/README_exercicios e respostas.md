@@ -1,29 +1,3 @@
-**Atividade: prova.html**
-
- Criar um programa para saber qual a sua porcentagem de acertos.
-- [x] Prova de 50 questões de múltipla escolha. 
-- [x] **/** a quantidade de acertos pelo total de questões
-- [x] **x** o resultado final por 100 
-
-```html
-<meta charset="UTF-8">
-<script>
-    document.write("Eu acertei: ");
-    document.write(15 / 50 * 100);
-    document.write("% da prova");
-</script>
-```
-Ou
-
-```html
-<script>
-    document.write("Eu acertei: "+ 15/50*100 + "% da prova");
-</script>
-```
-Resultado:
-![image](https://user-images.githubusercontent.com/108991648/182506065-53f4b259-6ede-481a-b66e-e939b6a1cfbd.png)
-______________________
-
 **Atividade: document_write.html**
 
 Duas programadoras:
@@ -56,8 +30,36 @@ Duas programadoras:
 </script>
 ```
 Resultado:
+
 ![image](https://user-images.githubusercontent.com/108991648/182507707-b9d2c164-47d6-4607-b1f1-a8fc4169a66b.png)
 
 ________________
+**Atividade: prova.html**
+
+ Criar um programa para saber qual a sua porcentagem de acertos.
+- [x] Prova de 50 questões de múltipla escolha. 
+- [x] **/** a quantidade de acertos pelo total de questões
+- [x] **x** o resultado final por 100 
+
+```html
+<meta charset="UTF-8">
+<script>
+    document.write("Eu acertei: ");
+    document.write(15 / 50 * 100);
+    document.write("% da prova");
+</script>
+```
+Ou
+
+```html
+<script>
+    document.write("Eu acertei: "+ 15/50*100 + "% da prova");
+</script>
+```
+Resultado:
+
+![image](https://user-images.githubusercontent.com/108991648/182506065-53f4b259-6ede-481a-b66e-e939b6a1cfbd.png)
+______________________
+
 
 
