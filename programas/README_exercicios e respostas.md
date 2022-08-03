@@ -192,7 +192,7 @@ O programa calcula a média dos dados:
 - [x] Guaraciara tem 15 anos;
 - [x] Pérola tem 13 anos.
 
-Melhorando o programa
+Melhorando o código do programa:
 
 ```html
 <meta charset="UTF-8">
@@ -212,5 +212,62 @@ Resultado:
 
 ![image](https://user-images.githubusercontent.com/108991648/182669422-b8961e6a-92b1-4246-b712-a42562a94b29.png)
 
+Melhorando, ainda mais o código:
+
+```html
+<meta charset="UTF-8">
+<script>
+    var idadeLinda = 12;
+    var idadeGuaraciara = 15;
+    var idadePerola = 13;
+    var soma = idadeLinda + idadeGuaraciara + idadePerola
+    var media = (soma) / 3;
+    document.write(Math.round(media));
+</script>
+```
+
 __________
+
+### 03_12_calcula_consumo.html
+
+Álcool ou Gasolina?
+
+Problema:
+- Veículo com tanque de <b>40</b> Litros; 
+- Tanque cheio faz <b>480km</b> com Gasolina;
+- Tanque cheio faz <b>300km</b> com Álcool.
+
+Para calcular:
+- Distância percorrida / quantidade de litros gastos
+- Imprima o valor utilizando document.write.
+- Organize as contas em variáveis
+
+Qual é o <b>consumoDeGasolina</b> e o <b>consumoDeÁlcool</b>? <br><br>
+
+```html
+<meta charset="UFT-8">
+
+<script>
+
+ var tanque = 40;
+ var caminhoComGasolina = 480;
+ var caminhoComÁlcool = 300;
+ var consumoDeGasolina = caminhoComGasolina / tanque;
+ var consumoDeÁlcool = caminhoComÁlcool / tanque;
+
+ document.write("Veículo com tanque de " + tanque + " litros.<br><br>");
+ document.write("Com gasolina, o tanque cheio percorre " + caminhoComGasolina + "km;<br>");
+ document.write("Com álcool, o tanque cheio percorre " + caminhoComÁlcool + "km.<br><br>");
+ document.write("Meu consumo com gasolina é de " + consumoDeGasolina + "km por litro.<br>");
+ document.write("Meu consumo com álcool é de " + consumoDeÁlcool + "km por litro.");
+</script>
+```
+
+Resultado:
+
+![image](https://user-images.githubusercontent.com/108991648/182684359-b747c07c-9ea5-4246-9b5c-947bcb13e95a.png)
+
+____
+
+
 

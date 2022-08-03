@@ -11,7 +11,7 @@ Conforme a convenção devemos:
 - [x] Em JavaScript tudo em minúsculo
 - [x] Variáveis são salvas:
    * 1 palavra: `assim`
-   * 2 ou mais: `destaForma`
+   * 2 ou mais: `destaForma` ou `destaFormaAqui`
 
 > O sistema até reconhece a tag sendo digitada em letra MAIÚSCULA, mas o correto é digitar em minúscula. 
 
@@ -130,22 +130,55 @@ Para arredondar um resultado:
 
 Resultado de 33,33 vai para 33.
 
+**Criando um nova função**
+
+> Assim como a variável, a função deve ser inclusa no início do programa!
+
+- [x] `function` apresentar uma nova função
+- [x] `pulaLinha()` nome da função e com **( )**
+- [x] `{ }` dentro das **{ }** 
+- [x] `document.write` identado e incluir o que essa função fará, dentro das **{ }** 
+- [x] Para executar esta função inserir `pulaLinha();`. 
+- [x] Os **( )** são obrigatórios para chamar a função!
+
+```JavaScript
+<script>
+
+function pulaLinha() {
+
+    document.write("<br>");
+
+}
+
+</script>
+```
+
+**Criando uma nova função com parâmetros**
+- [x]
+```JavaScript
+<script>
+
+function mostra(frase) {
+
+    document.write(frase);
+
+}
+
+</script>
+```
+
 
 
 ____
 
-
-
-No navegador Chrome, `Ctrl+O` e abra o arquivo anterior
-
-
 Comandos: Html | Descrição
 :-|:-
 < > | São tags
-/ | Fechar
+< / > | Fechar uma tag
 < a > | Âncora
 < br > | Pular linha
 < h1 > | Título
+< b > | negrito
 ------------------------------------|--------------------------------------------------------
 href = | Atributo
 ------------------------------------|--------------------------------------------------------
@@ -156,7 +189,9 @@ F12 + Console | Para localizar um problema no código
 ------------------------------------|--------------------------------------------------------
 < meta charset = "UTF-8"> | Utilizar no navegador para acentuação
 **Comandos: JavaScript** | **Descrição**
+// | Comentário
 < script > | Iniciar linguagem JavaScript
-alert | Cria um *popup* de alerta
 var | variável
-
+------------------------------------|--------------------------------------------------------
+Math.round() | arredondar o resultado
+alert | Cria um *popup* de alerta
