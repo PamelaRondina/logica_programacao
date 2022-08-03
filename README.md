@@ -1,5 +1,7 @@
 # Lógica de Programação
 
+**Exercícios e Resultados [Aqui](https://github.com/PamelaRondina/logica_programacao/blob/main/programas/README_exercicios%20e%20respostas.md)**
+
 **Regras da Convenção**
 
 Conforme a convenção devemos:

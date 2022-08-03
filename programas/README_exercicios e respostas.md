@@ -20,16 +20,17 @@ Ou
     document.write("Eu acertei: "+ 15/50*100 + "% da prova");
 </script>
 ```
-
+Resultado:
 ![image](https://user-images.githubusercontent.com/108991648/182506065-53f4b259-6ede-481a-b66e-e939b6a1cfbd.png)
 ______________________
 
 **Atividade: document_write.html**
-Temos dois usuários:
-- [x] O primeiro, para pular uma linha utilizou `document.write("<br>")`
-- [x] O segundo, apenas incluir `+ "<br>"` 
 
-> Ambos dão o mesmo resultado, a programadora decide sua melhor versão!
+Duas programadoras:
+- [x] A primeira, para pular uma linha utilizou `document.write("<br>")`
+- [x] A segunda, apenas incluir `+ "<br>"` 
+
+> Ambos os códigos dão o mesmo resultado, a programadora decide sua melhor versão!
 
 1ª programadora:
 ```html
@@ -54,7 +55,7 @@ Temos dois usuários:
     document.write("Barney nasceu em " + (2016 - 40));
 </script>
 ```
-
+Resultado:
 ![image](https://user-images.githubusercontent.com/108991648/182507707-b9d2c164-47d6-4607-b1f1-a8fc4169a66b.png)
 
 ________________
