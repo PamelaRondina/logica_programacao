@@ -154,13 +154,18 @@ function pulaLinha() {
 ```
 
 **Criando uma nova função com parâmetros**
-- [x]
+- [x] Repete os passos do item anterior
+- Dentro das **( )** da função ganha um parâmetro
+- [x] O mesmo parâmetro se repete dentro das **( )** de `document.write(aqui)`
+- [x] As funções podem ser inclusas dentro de outras funções
+
 ```JavaScript
 <script>
 
 function mostra(frase) {
 
     document.write(frase);
+    pulaLinha();
 
 }
 
