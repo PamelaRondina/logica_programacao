@@ -9,6 +9,9 @@ Conforme a convenção devemos:
 - [x] **< >** são tags, são feitas em letras minúsculas
 - [x] As tags são abertas e fechadas com **/**, `<h1>` e `</h1>`
 - [x] Em JavaScript tudo em minúsculo
+- [x] Variáveis são salvas:
+   * 1 palavra: `assim`
+   * 2 ou mais: `destaForma`
 
 > O sistema até reconhece a tag sendo digitada em letra MAIÚSCULA, mas o correto é digitar em minúscula. 
 
@@ -101,7 +104,37 @@ Se tivermos:
 alert("Este é um popup feito com JavaScript");
 </script>
 ```
-_____
+
+**Variável**
+
+- [x] `var`declarada apenas pela 1ª vez
+- [x] `var =` var recebe
+
+```html
+<meta charset="UTF-8">
+
+<script>
+    var n = 1;
+    document.write("O resultado da fórmula é : " + n * (10 / 20));
+
+    n = 2
+    document.write("O resultado da fórmula é : " + n * (10 / 20));
+</script>
+```
+
+**Usando funções Matemáticas**
+
+Para arredondar um resultado:
+
+- [x] `Math.round()` - dentro das **( )** incluir um valor ou uma variável. O resultado será arredondado.
+
+Resultado de 33,33 vai para 33.
+
+
+
+____
+
+
 
 No navegador Chrome, `Ctrl+O` e abra o arquivo anterior
 
@@ -121,8 +154,9 @@ Ctrl+R | Atualizar Página
 Ctrl+O | Abrir arquivo no navegador
 F12 + Console | Para localizar um problema no código
 ------------------------------------|--------------------------------------------------------
-< meta charset = "UTF-8"> | Utilizar em navegador para acentuação
+< meta charset = "UTF-8"> | Utilizar no navegador para acentuação
 **Comandos: JavaScript** | **Descrição**
 < script > | Iniciar linguagem JavaScript
 alert | Cria um *popup* de alerta
+var | variável
 
