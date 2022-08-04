@@ -137,7 +137,7 @@ Resultado de 33,33 vai para 33.
 - [x] `function` apresentar uma nova função
 - [x] `pulaLinha()` nome da função e com **( )**
 - [x] `{ }` dentro das **{ }** 
-- [x] `document.write` identado e incluir o que essa função fará, dentro das **{ }** 
+- [x] `document.write` indentado e incluir o que essa função fará, dentro das **{ }** 
 - [x] Para executar esta função inserir `pulaLinha();`. 
 - [x] Os **( )** são obrigatórios para chamar a função!
 

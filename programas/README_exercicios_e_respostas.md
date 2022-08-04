@@ -335,7 +335,7 @@ _______________________
     }
 
     function mostra(frase) {
-document.write("*********************************");
+        document.write("*********************************");
         pulaLinha();
         document.write(frase);
     }
@@ -356,7 +356,7 @@ document.write("*********************************");
     }
 
     function mostra(frase) {
-document.write("*********************************");
+        document.write("*********************************");
         pulaLinha();
         document.write(frase);
         pulaLinha()
@@ -377,7 +377,7 @@ document.write("*********************************");
     }
 
     function mostra(frase) {
-document.write("*********************************");
+        document.write("*********************************");
         document.write(frase);
         pulaLinha()
     }
