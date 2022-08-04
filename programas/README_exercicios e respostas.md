@@ -121,7 +121,7 @@ Código inicial:
 </script>
 ```
 
-Código altedado, com a inclusão de `var n = 1`
+Código alterado, com a inclusão de `var n = 1`
 
 ```html
 <meta charset="UTF-8">
