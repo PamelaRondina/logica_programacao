@@ -269,5 +269,60 @@ Resultado:
 
 ____
 
+### Atividade: 04_09_alert_asteriscos.hthml
+
+O primeiro código, está com erro, não responde no Browser.
+
+```html
+<meta charset="UTF-8">
+<script>
+    var idade1 = 10;
+    var idade2 = 20;
+    var idade3 = 30;
+    var totalIdades = idade1 + idade2 + idade3;
+    var mediaIdades = totalIdades/3;
+    alert("***Total de idades é " + totalIdades + "***");
+    alert("***A média das idades é " +  mediaIdades + "***");
+</script>
+```
+
+Código alterado, responde no Browser:
+- [x] incluso a `function exibeAlerta(mensagem)`, chamando um parâmetro "mensagem"
+- [x] Função com informação do que deve fazer, no caso `alert()`
+- [x] `alert` com parâmetro de "***" + mensagem + "***"
+- [x] Resultado da função exibeAlerta é de:
+   * "***" primeiro
+   * em seguida, a mensagem, que está dentro das **( )** 
+   * "***" por último
+ 
+```html
+<meta charset="UTF-8">
+<script>
+    function exibeAlerta(mensagem) {
+        
+        alert("***" + mensagem + "***");
+
+    }
+
+    var idade1 = 10;
+    var idade2 = 20;
+    var idade3 = 30;
+    var totalIdades = idade1 + idade2 + idade3;
+    var mediaIdades = totalIdades/3;
+
+    exibeAlerta("Total de idades é " + totalIdades);
+    exibeAlerta("A média das idades é " +  mediaIdades);
+</script>
+```
+
+Resultado:
+
+02 Pop Ups gerados, cada um com uma frase:
+
+![image](https://user-images.githubusercontent.com/108991648/182914084-0acbd444-f96b-4273-9415-9b8614adeef1.png)
+
+_______________________
+
+
 
 
