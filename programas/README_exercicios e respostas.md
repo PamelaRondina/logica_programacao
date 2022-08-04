@@ -9,7 +9,7 @@ No primeiro teste, aprendemos:
 - [x] Pular linha `<br>`
 - [x] Incluir link `<a href="link">aqui</a>!`
 - [x] Chamar e fechar linguagem JavaScript `<script> </script>` 
-- [x] Chamar um popup `alert`
+- [x] Chamar um pop up `alert`
 
 ```html
 <h1>Meu primeiro teste!</h1>
@@ -323,6 +323,76 @@ Resultado:
 
 _______________________
 
+### Atividade: 04_10_nao_mostra_como_fez.html
+
+1º CÓDIGO!
+
+```html
+<meta charset="UTF-8">
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+document.write("*********************************");
+        pulaLinha();
+        document.write(frase);
+    }
+
+    mostra("BEM-VINDO AO MEU PROGRAMA");
+    mostra("ELE REALMENTE FUNCIONA")
+    mostra("EU USEI FUNÇÃO PARA FAZER ISSO")
+</script>
+```
+
+2º CÓDIGO:
+
+```html
+<meta charset="UTF-8">
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+document.write("*********************************");
+        pulaLinha();
+        document.write(frase);
+        pulaLinha()
+    }
+
+    mostra("BEM-VINDO AO MEU PROGRAMA");
+    mostra("ELE REALMENTE FUNCIONA")
+    mostra("EU USEI FUNÇÃO PARA FAZER ISSO")
+</script>
+```
+
+3º CÓDIGO: 
+```html
+<meta charset="UTF-8">
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+document.write("*********************************");
+        document.write(frase);
+        pulaLinha()
+    }
+
+    mostra("BEM-VINDO AO MEU PROGRAMA");
+    mostra("ELE REALMENTE FUNCIONA")
+    mostra("EU USEI FUNÇÃO PARA FAZER ISSO")
+</script>
+```
+
+Resultado:
+
+![image](https://user-images.githubusercontent.com/108991648/182917036-baa845dd-d269-4416-b4c5-e22494af4d6a.png)
+
+____________
 
 
 
