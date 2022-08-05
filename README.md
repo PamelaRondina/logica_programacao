@@ -205,24 +205,24 @@ Comandos: Html | Descrição
 < hr > | Risco 
 < big > | Aumenta o tamanho da letra
 < h1 align="center" > | Título 1 + centralizado
-<h5 align="center">--------------- |<h5 align="center">--------------
+------ |  -------
 href = | Atributo
-<h5 align="center">------------- |<h5 align="center">--------------
+------ |  -------
 Ctrl+S | Salvar
 Ctrl+R | Atualizar Página
 Ctrl+O | Abrir arquivo no navegador
 F12 + Console | Para localizar um problema no código
-<h5 align="center">------------- |<h5 align="center">--------------
+------ |  -------
 < meta charset = "UTF-8"> | Utilizar no navegador para acentuação
 **Comandos: JavaScript** | **Descrição**
 // | Comentário
 = | Recebe
 < script > | Iniciar linguagem JavaScript
 var | variável
-**Funções**|<h5 align="center">--------------
+**Funções**| ---------
 Math.round() | arredondar o resultado
 alert("texto") | Cria um *pop up* de alerta
 prompt("texto") | Pop up para o usuário inserir um resultado, retorna o resultado como string
 parseInt("texto")| Converte uma string para número
-Erros | <h5 align="center">--------------
+**Erros**| ----------
 NaN | Não é um número
