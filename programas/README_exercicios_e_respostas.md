@@ -579,7 +579,7 @@ Nesta atividade, criamos 03 funções:
     - com dois parâmetros: altura, peso
     - `var imc` para realizar o cálculo do imc
     - `var resultado` arredondando o resultado
-    - `return` para rerornar o resultado nas variáveis mais abaixo
+    - `return` para retornar o resultado nas variáveis mais abaixo
 - [x] `var imcPam e imcBruno`
     - Após realizar a função `calculaImc`, o `return`devolve o resultado para o `imc Pam`e para `imcBruno`
 - [x] `mostra` apresenta o resultado final.
@@ -621,5 +621,62 @@ Resultado:
 28
 
 __________
+
+### Atividade: 05_08_olha_o_calculo_do_imc_novamente.html
+
+Código com erro.
+
+```JavaScript
+<meta charset="UTF-8">
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function calculaImc(altura, peso) {
+        var imc = peso / (altura * altura);
+    }
+
+    var imcCalculado = calculaImc(1.77, 75);
+    mostra("O meu IMC é : " + imcCalculado);
+</script>
+```
+
+Erro localizado! Adicionando o `return` para a ultima variável ter uma resposta:
+
+```JavaScript
+<meta charset="UTF-8">
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function calculaImc(altura, peso) {
+        var imc = peso / (altura * altura);
+        var resultado = Math.round(imc)
+        return resultado
+    }
+
+    var imcCalculado = calculaImc(1.77, 75);
+     
+    mostra("O meu IMC é : " + imcCalculado);
+</script>
+```
+
+Resultado:
+
+![image](https://user-images.githubusercontent.com/108991648/183136834-ea0f65ba-f95e-4984-9674-21577a795b0e.png)
+
+_______________
 
 
