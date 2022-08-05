@@ -221,4 +221,5 @@ F12 + Console | Para localizar um problema no código
 var | variável
 <h5 align="center">------------- |<h5 align="center">--------------
 Math.round() | arredondar o resultado
-alert | Cria um *pop up* de alerta
+alert("texto") | Cria um *pop up* de alerta
+prompt("texto") | Pop up para o usuário inserir um resultado

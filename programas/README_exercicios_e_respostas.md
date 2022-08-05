@@ -626,7 +626,7 @@ __________
 
 Código com erro.
 
-```JavaScript
+```html
 <meta charset="UTF-8">
 <script>
     function pulaLinha() {
@@ -679,4 +679,168 @@ Resultado:
 
 _______________
 
+### Atividade 05_10_calculaimc.html
+
+Exercício demonstrando o resultado final em dois formatos:
+- var imcCalculado = calculaImc(1.63, 48);
+    mostra("O meu IMC é " + imcCalculado);
+<br>
+- mostra("O meu IMC é " + calculaImc(1.63, 48) );
+```html
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha() {
+        document.write("<br><br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+    }
+
+    function calculaImc(altura, peso) {
+
+        return peso / ( altura * altura );
+      
+    }
+
+    var imcCalculado = calculaImc(1.63, 48);
+    mostra("O meu IMC é " + imcCalculado);
+    pulaLinha();
+    mostra("O meu IMC é " + calculaImc(1.63, 48) );
+</script>
+```
+Resultado:
+
+![image](https://user-images.githubusercontent.com/108991648/183142787-80e4807e-d240-48f3-a84f-76d9f26a8f3f.png)
+
+_____________
+
+### Atividade: 05_11_interagindo_com_usuario.html
+
+Nesta atividade, vamos inncluir pop ups para que o usuário possa interagir.
+
+- [x] `prompt("texto)` abrirá um pop up para que o usuário preencha
+
+
+```html
+<meta cherset="UTF-8">
+
+<script>
+    function pulaLinha() {
+        document.write("<br><br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function calculaImc(altura, peso) {
+
+        return peso / (altura * altura);
+    }
+
+var nome = prompt("Qual é o seu nome?");
+var alturaInformada = prompt(nome + ", informe sua altura");
+var pesoInformado = prompt(nome + ", informe seu peso");
+
+var imc = calculaImc(alturaInformada, pesoInformado);
+var imcCerto = Math.round(imc)
+
+document.write(nome + ", o seu IMC é: " + imcCerto);
+
+</script>
+```
+
+_____
+
+### Atividade 05_15_agora_eu_quero_ver.html
+
+```html
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha() {
+
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function a(texto) {
+        return "(" + texto + ")";
+    }
+
+    function b(texto) {
+        return "@" + texto + "@";
+    }
+
+    function c(nome, sobrenome) {
+        return b(nome + " " + a(sobrenome));
+
+    }
+
+    var resultado = c("Flávio", "Almeida");
+    mostra(resultado);
+
+</script>
+```
+
+O que será exibido?
+
+Função A: 
+```
+function a(texto) {
+        return "(" + texto + ")";
+    }
+```
+Função B:
+```
+    function b(texto) {
+        return "@" + texto + "@";
+    }
+```
+Função C:
+```
+	function c(nome, sobrenome) {
+        return b(nome + " " + a(sobrenome));
+    }
+```
+
+<br>Temos que ler a seguinte variável:
+
+```
+var resultado = c("Flávio", "Almeida");`
+mostra(resultado);
+```
+<br>Vamos começar a interpretar:
+
+- [x] `var resultado = c`
+- [x] Vamos começar a ler a partir da função C 
+- [x] Função C tem nome(Flávio) e sobrenome(Almeida), mas  mas ela retorna para a função B em `return b`<br><br>
+- [x] Na função B ela inicia com @ + texto + @
+- [x] Lemos assim: `@ + (nome + " " + a(sobrenome)) + @`
+
+> Ficaria: @ + Flávio + "espaço" = @Flávio  
+<br>
+
+- [x] Depois ela retorna para a função A em `a (sobrenome)`
+- [x] Na função A temos: "(" + texto + ")"  = (sobrenome)
+- [x] Lemos assim: (Almeida)
+
+> Até agora temos: @ + Flávio + "espaço" + "(" + Almeida + ")" = @Flávio (Almeida)
+
+- [x] Com isso, encerramos a função A e temos que retornar para a função B, o final da função B é o @
+
+> Temos o resulado: @ + Flávio + "espaço" + "(" + Almeida + ")" + @ = @Flávio (Almeida)@
+
+Resultado:
+
+@Flávio (Almeida)@
+
+______________
 
