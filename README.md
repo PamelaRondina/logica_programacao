@@ -183,7 +183,9 @@ Comandos: Html | Descrição
 < a > | Âncora
 < br > | Pular linha
 < h1 > | Título
-< b > | negrito
+< b > | Negrito
+< hr > | Risco 
+< big > | Aumenta o tamanho da letra
 ------------------------------------|--------------------------------------------------------
 href = | Atributo
 ------------------------------------|--------------------------------------------------------

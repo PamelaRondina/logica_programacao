@@ -23,6 +23,7 @@ alert("Isso sim é um programa");
 Resultado:
 
 **Pop Up**
+
 ![image](https://user-images.githubusercontent.com/108991648/182516300-c059ffa6-12e6-4e21-9026-126653edc865.png)
 
 ![image](https://user-images.githubusercontent.com/108991648/182516389-f636c45d-65c4-4278-a28c-410090bd25c4.png)
@@ -325,7 +326,7 @@ _______________________
 
 ### Atividade: 04_10_nao_mostra_como_fez.html
 
-1º CÓDIGO!
+1º código:
 
 ```html
 <meta charset="UTF-8">
@@ -346,7 +347,7 @@ _______________________
 </script>
 ```
 
-2º CÓDIGO:
+2º código:
 
 ```html
 <meta charset="UTF-8">
@@ -362,29 +363,31 @@ _______________________
         pulaLinha()
     }
 
-    mostra("BEM-VINDO AO MEU PROGRAMA");
-    mostra("ELE REALMENTE FUNCIONA")
-    mostra("EU USEI FUNÇÃO PARA FAZER ISSO")
+mostra("BEM-VINDO AO MEU PROGRAMA");
+mostra("ELE REALMENTE FUNCIONA")
+mostra("EU USEI FUNÇÃO PARA FAZER ISSO")
 </script>
 ```
 
-3º CÓDIGO: 
+3º código: 
 ```html
 <meta charset="UTF-8">
 <script>
+
     function pulaLinha() {
         document.write("<br>");
     }
 
     function mostra(frase) {
-        document.write("*********************************");
+                document.write("*********************************");
         document.write(frase);
         pulaLinha()
     }
 
-    mostra("BEM-VINDO AO MEU PROGRAMA");
-    mostra("ELE REALMENTE FUNCIONA")
-    mostra("EU USEI FUNÇÃO PARA FAZER ISSO")
+mostra("BEM-VINDO AO MEU PROGRAMA");
+mostra("ELE REALMENTE FUNCIONA")
+mostra("EU USEI FUNÇÃO PARA FAZER ISSO")
+
 </script>
 ```
 
@@ -394,5 +397,139 @@ Resultado:
 
 ____________
 
+### Atividade 04_12_a_diferença_na_idade.html
 
+Faça um programa onde:
+- [x] Tenha a sua idade
+- [x] A idade de uma irmã/amigo
+- [x] Mostre a diferença entre elas
 
+```html
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(texto){
+        document.write("Idade Pamela é " + idadePamela);
+        pulaLinha();
+        document.write("Idade Ysa é " + idadeYsa);
+        pulaLinha();
+        document.write(texto);
+        pulaLinha();
+    }
+
+var idadePamela = 30;
+var idadeYsa = 13;
+var subtraçãoIdades = idadePamela - idadeYsa
+
+mostra("Nossa diferença de idade: "+ subtraçãoIdades + " anos");
+
+</script>
+```
+
+Resultado:
+
+![image](https://user-images.githubusercontent.com/108991648/182943251-ff1a2d82-503a-4288-81be-cd3d6241932f.png)
+
+________________________
+
+### Atividade 04_13_problema_das_geracoes
+
+Problema: em média, um casal tem filhos quando atinge a idade de 28 anos. Seguindo essa média, se os portugueses chegaram em 1500 no Brasil, então, a primeira geração de brasileiros surgiu em 1528, a segunda em 1556 e assim por diante. Desde 1500 até o ano atual, quantas gerações se passaram?
+
+```html
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase){
+        document.write("Os portugueses chegaram em " + inicio);
+        pulaLinha();
+        document.write("Foram passadas " + arredonda + " gerações");
+    }
+
+var inicio = 1500;
+var atual = 2022;
+var conta = ((atual - inicio) / 28);
+var arredonda = Math.round(conta);
+
+mostra();
+
+</script>
+```
+Resultado:
+
+![image](https://user-images.githubusercontent.com/108991648/182953921-11791751-46ab-451e-8f15-ccd9920586eb.png)
+
+______________
+
+### Atividade: 04_14_mostra_idade2.html
+
+Primeiro código:
+
+```html
+<meta charset="UTF-8">
+<script>
+
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+   }
+
+var ano = 2022
+mostra("Eu nasci em: " + (ano - 31));
+mostra("Bruno nasceu em: " + (ano - 30));
+mostra("Ysa nasceu em: " +(ano - 13));
+
+</script>
+```
+
+Código alterado:
+
+- [x] Utilize 2 `<br>s` na função pulaLinha.
+- [x] Utilize a tag `<hr>` entre os `<br>s`, criando um traço
+- [x] Utilize a tag `<big>`, aumentando o tamanho da fonte
+
+```html
+<meta charset="UTF-8">
+<script>
+
+    function pulaLinha() {
+        document.write("<br><hr><br>");
+    }
+
+    function mostra(frase) {
+        
+        document.write("<big>" + frase + "</big>");
+        pulaLinha();
+    
+    }
+
+var ano = 2022
+mostra("Eu nasci em: " + (ano - 31));
+mostra("Bruno nasceu em: " + (ano - 30));
+mostra("Ysa nasceu em: " +(ano - 13));
+
+</script>
+```
+
+Resultado:
+
+![image](https://user-images.githubusercontent.com/108991648/182982777-1915aa0b-f8ba-457c-abda-f3d0aa1ee59f.png)
+
+**Execute erros e veja no console**
+ - [x] Esqueça a palavra function na hora de declarar uma de suas funções.
+- [x] Esqueça os parênteses na declaração da função pulaLinha
+
+1. Uncaught SyntaxError: Unexpected token '{'
+2. 
