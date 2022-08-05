@@ -532,4 +532,94 @@ Resultado:
 - [x] Esqueça os parênteses na declaração da função pulaLinha
 
 1. Uncaught SyntaxError: Unexpected token '{'
-2. 
+
+_______________
+
+### Atividade: 05_01_imc.html 
+
+Neste exercício, notamos a inclusão de 02 parâmetros dentro de uma função `function calculaImc (altura, peso)`
+
+```html
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+        document.write("<br><br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+  function calculaImc (altura, peso) {
+        var imc = peso / (altura * altura);
+        var resultado = Math.round(imc)
+        mostra("O imc calculado é: " + resultado);
+    }
+  
+calculaImc(1.70, 73);
+calculaImc(1.80, 90);
+
+</script>
+```
+
+Resultado:
+
+![image](https://user-images.githubusercontent.com/108991648/183091089-d6bda709-2943-43ec-b89c-d01dd854e7f5.png)
+______________
+
+### Atividade: 05_05_retorno_de_funcoes.html
+
+Nesta atividade, criamos 03 funções:
+- [x] `pulaLinha` pulando 2 linhas
+- [x] `mostra` escrevendo a frase e pulando 2 linhas
+- [x] `calculaImc` 
+    - com dois parâmetros: altura, peso
+    - `var imc` para realizar o cálculo do imc
+    - `var resultado` arredondando o resultado
+    - `return` para rerornar o resultado nas variáveis mais abaixo
+- [x] `var imcPam e imcBruno`
+    - Após realizar a função `calculaImc`, o `return`devolve o resultado para o `imc Pam`e para `imcBruno`
+- [x] `mostra` apresenta o resultado final.
+
+
+```html
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+        document.write("<br><br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function calculaImc (altura, peso) {
+        var imc = peso / (altura * altura);
+        var resultado = Math.round(imc);
+        return resultado
+    }
+  
+var imcPam = calculaImc(1.70, 73);
+var imcBruno = calculaImc(1.80, 90);
+
+mostra(imcPam);
+mostra(imcBruno);
+
+</script>
+```
+
+Resultado:
+
+25 
+
+28
+
+__________
+
+

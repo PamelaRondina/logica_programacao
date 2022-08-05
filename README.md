@@ -153,7 +153,7 @@ function pulaLinha() {
 </script>
 ```
 
-**Criando uma nova função com parâmetros**
+**Função com 1 (um) parâmetro**
 - [x] Repete os passos do item anterior
 - Dentro das **( )** da função ganha um parâmetro
 - [x] O mesmo parâmetro se repete dentro das **( )** de `document.write(aqui)`
@@ -172,7 +172,25 @@ function mostra(frase) {
 </script>
 ```
 
+**Função com 2 (dois) parâmetros**
+- [x] Dentro das **( )** da função ganha dois parâmetros, são separados por **,**
+- [x] O mesmo parâmetro se repete na variável criada
 
+```JavaScript
+<script>
+
+function calculaImc(altura, peso) {
+
+    var imc = peso / (altura * altura);
+    mostra("O imc calculado é: " + imc);
+    
+}
+
+calculaImc(1.71, 73);
+calculaImc(1.72, 68);
+
+</script>
+```
 
 ____
 
@@ -186,19 +204,21 @@ Comandos: Html | Descrição
 < b > | Negrito
 < hr > | Risco 
 < big > | Aumenta o tamanho da letra
-------------------------------------|--------------------------------------------------------
+< h1 align="center" > | Título 1 + centralizado
+<h5 align="center">--------------- |<h5 align="center">--------------
 href = | Atributo
-------------------------------------|--------------------------------------------------------
+<h5 align="center">------------- |<h5 align="center">--------------
 Ctrl+S | Salvar
 Ctrl+R | Atualizar Página
 Ctrl+O | Abrir arquivo no navegador
 F12 + Console | Para localizar um problema no código
-------------------------------------|--------------------------------------------------------
+<h5 align="center">------------- |<h5 align="center">--------------
 < meta charset = "UTF-8"> | Utilizar no navegador para acentuação
 **Comandos: JavaScript** | **Descrição**
 // | Comentário
+= | Recebe
 < script > | Iniciar linguagem JavaScript
 var | variável
-------------------------------------|--------------------------------------------------------
+<h5 align="center">------------- |<h5 align="center">--------------
 Math.round() | arredondar o resultado
-alert | Cria um *popup* de alerta
+alert | Cria um *pop up* de alerta
