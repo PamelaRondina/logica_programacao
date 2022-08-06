@@ -844,3 +844,8 @@ Resultado:
 
 ______________
 
+### Atividade: 06_01_futebol.html
+
+Resultado:
+
+![image](https://user-images.githubusercontent.com/108991648/183223378-7a99cb7f-d231-4ff5-bc71-09694238ff38.png)

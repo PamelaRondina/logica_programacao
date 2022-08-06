@@ -11,10 +11,16 @@
         pulaLinha();
     }
 
-    var vitorias = prompt("Quais são as vitórias?");
-    var empates = prompt("Quantos são os empates?");
+    var vitorias = parseInt(prompt("Quais são as vitórias?"));
+    var empates = parseInt(prompt("Quantos são os empates?"));
 
     var pontos = vitorias * 3 + empates;
 
     mostra("Os pontos do seu time:" + pontos);
 </script>
+<br><br>
+
+inclundi `parseInt()`, neste caso, a string de `prompt` se tornará em um número, desde que, seja informado um número.
+
+Por exemplo, se o usuário informar 10, estará correto. Se o usuário informar "chuva", está incorreto.
+
