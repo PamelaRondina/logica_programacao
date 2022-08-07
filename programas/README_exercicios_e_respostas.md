@@ -900,7 +900,7 @@ Nesta atividade, incluímos o `if (se algo for <, = ou > a outro) {imprima("tal 
 
 - [x] `&&` siginifica "e" 
 - [x] Note que a variável foi chamada após o `&&`
-- [x] O texto a ser impresso deve estar nas **{ }**
+- [x] O texto a ser impresso deve estar dentro do bloco **{ }**
 
 ```html
 if(imcCerto >= 18.5 && imcCerto <= 35) {
@@ -958,4 +958,49 @@ Resultado:
 ![image](https://user-images.githubusercontent.com/108991648/183309322-b760c9fe-a916-49b9-80bb-e8dfc784adc9.png)
 
 ________________
+
+### Atividade 06_08_jogo_de_adivinhacao.html
+
+Nesta atividade, fizemos um jogo de adivinhação.
+
+- [x] A condição `if == se` recebe o resultado de uma operação dentro dos **( )**
+- [x] Dentro do bloco **{ }** que informamos o que deve ser escrito na tela do usuário
+- [x] A condição `else == se não` também tem seu parâmetro dentro de um bloco **{ }**
+
+```
+if(numero == chute){
+    mostra("Você acertou! Também pensei no " + numero);
+} else {
+    mostra("Ih! Não foi dessa vez! O número que pensei foi " + numero)
+}
+```
+
+
+
+```html
+<meta cherset="UTF-8">
+
+<script>
+    function pulaLinha() {
+        document.write("<br><br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+var numero = Math.round(Math.random() * 5);
+var chute = parseInt(prompt("Tente adivinhar em qual número estou pensando..."))
+
+if(numero == chute){
+    mostra("Você acertou! Também pensei no " + numero);
+} else {
+    mostra("Ih! Não foi dessa vez! O número que pensei foi " + numero)
+}
+
+</script>
+```
+
+_____________
 
