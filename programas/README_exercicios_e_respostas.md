@@ -893,3 +893,69 @@ Resultado:
 ![image](https://user-images.githubusercontent.com/108991648/183223378-7a99cb7f-d231-4ff5-bc71-09694238ff38.png)
 ___________
 
+### Atividade 06_07_interagindo_com_usuario2.html
+
+Nesta atividade, incluímos o `if (se algo for <, = ou > a outro) {imprima("tal item")}`
+
+
+- [x] `&&` siginifica "e" 
+- [x] Note que a variável foi chamada após o `&&`
+- [x] O texto a ser impresso deve estar nas **{ }**
+
+```html
+if(imcCerto >= 18.5 && imcCerto <= 35) {
+    mostra("Legal! Seu IMC é excelente!");
+}
+```
+
+```html
+<meta cherset="UTF-8">
+
+<script>
+    function pulaLinha() {
+        document.write("<br><br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function calculaImc(altura, peso) {
+
+        return peso / (altura * altura);
+    }
+
+var nome = prompt("Qual é o seu nome?");
+var alturaInformada = prompt(nome + ", informe sua altura");
+var pesoInformado = prompt(nome + ", informe seu peso");
+
+var imc = calculaImc(alturaInformada, pesoInformado);
+var imcCerto = Math.round(imc)
+
+mostra(nome + ", o seu IMC é: " + imcCerto);
+
+if(imcCerto < 18.5) {
+    mostra("Cuidado! Seu IMC está abaixo do recomendado!");
+}
+
+if(imcCerto >= 18.5 && imcCerto <= 35) {
+    mostra("Legal! Seu IMC é excelente!");
+}
+
+if (imcCerto >35) {
+    mostra("Cuidado! Seu IMC está acima do recomendado!");
+}
+
+
+</script>
+```
+
+Resultado:
+
+* 1º foram chamados 3 alertas: nome, altura e peso.
+
+![image](https://user-images.githubusercontent.com/108991648/183309322-b760c9fe-a916-49b9-80bb-e8dfc784adc9.png)
+
+________________
+
