@@ -217,6 +217,7 @@ F12 + Console | Para localizar um problema no código
 **Comandos: JavaScript** | **Descrição**
 // | Comentário
 = | Recebe
+== | Igual
 < script > | Iniciar linguagem JavaScript
 var | variável
 **Funções**| ---------

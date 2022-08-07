@@ -56,6 +56,7 @@ ______
 
 ```html
 <meta charset="UTF-8">
+
 <script>
     document.write("Eu acertei: ");
     document.write(15 / 50 * 100);
@@ -117,6 +118,7 @@ Atribuir váriável.
 Código inicial:
 ```html
 <meta charset="UTF-8">
+
 <script>
     document.write("O resultado da fórmula é : " + n * (10 / 20));
 </script>
@@ -140,6 +142,7 @@ A programadora escreveu o código que exibe na tela o resultado da tabuada de 5!
 
 ```html
 <meta charset="UTF-8">
+
 <script>
     document.write("5 vezes 1 é " + 5 * 1+ "<br>");
     document.write("5 vezes 2 é " + 5 * 2+ "<br>");
@@ -157,6 +160,7 @@ Altere para a tabuada do 8 incluindo variáveis:
 
 ```html
 <meta charset="UTF-8">
+
 <script>
     var n = 8
     document.write(n + " x 1 = " + n * 1 + "<br>");
@@ -183,6 +187,7 @@ O detetive Roy localizou este código:
 
 ```html
 <meta charset="UTF-8">
+
 <script>
     document.write( (12 + 15 + 13) / 3);
 </script>
@@ -197,6 +202,7 @@ Melhorando o código do programa:
 
 ```html
 <meta charset="UTF-8">
+
 <script>
     var idadeLinda = 12;
     var idadeGuaraciara = 15;
@@ -217,6 +223,7 @@ Melhorando, ainda mais o código:
 
 ```html
 <meta charset="UTF-8">
+
 <script>
     var idadeLinda = 12;
     var idadeGuaraciara = 15;
@@ -249,7 +256,6 @@ Qual é o <b>consumoDeGasolina</b> e o <b>consumoDeÁlcool</b>? <br><br>
 <meta charset="UFT-8">
 
 <script>
-
  var tanque = 40;
  var caminhoComGasolina = 480;
  var caminhoComÁlcool = 300;
@@ -276,6 +282,7 @@ O primeiro código, está com erro, não responde no Browser.
 
 ```html
 <meta charset="UTF-8">
+
 <script>
     var idade1 = 10;
     var idade2 = 20;
@@ -298,11 +305,11 @@ Código alterado, responde no Browser:
  
 ```html
 <meta charset="UTF-8">
+
 <script>
     function exibeAlerta(mensagem) {
         
         alert("***" + mensagem + "***");
-
     }
 
     var idade1 = 10;
@@ -330,6 +337,7 @@ _______________________
 
 ```html
 <meta charset="UTF-8">
+
 <script>
     function pulaLinha() {
         document.write("<br>");
@@ -351,6 +359,7 @@ _______________________
 
 ```html
 <meta charset="UTF-8">
+
 <script>
     function pulaLinha() {
         document.write("<br>");
@@ -372,8 +381,8 @@ mostra("EU USEI FUNÇÃO PARA FAZER ISSO")
 3º código: 
 ```html
 <meta charset="UTF-8">
-<script>
 
+<script>
     function pulaLinha() {
         document.write("<br>");
     }
@@ -475,6 +484,7 @@ Primeiro código:
 
 ```html
 <meta charset="UTF-8">
+
 <script>
 
     function pulaLinha() {
@@ -502,6 +512,7 @@ Código alterado:
 
 ```html
 <meta charset="UTF-8">
+
 <script>
 
     function pulaLinha() {
@@ -516,6 +527,7 @@ Código alterado:
     }
 
 var ano = 2022
+
 mostra("Eu nasci em: " + (ano - 31));
 mostra("Bruno nasceu em: " + (ano - 30));
 mostra("Ysa nasceu em: " +(ano - 13));
@@ -543,7 +555,6 @@ Neste exercício, notamos a inclusão de 02 parâmetros dentro de uma função `
 <meta charset="UTF-8">
 
 <script>
-
     function pulaLinha() {
         document.write("<br><br>");
     }
@@ -589,7 +600,6 @@ Nesta atividade, criamos 03 funções:
 <meta charset="UTF-8">
 
 <script>
-
     function pulaLinha() {
         document.write("<br><br>");
     }
@@ -628,6 +638,7 @@ Código com erro.
 
 ```html
 <meta charset="UTF-8">
+
 <script>
     function pulaLinha() {
         document.write("<br>");
@@ -649,8 +660,9 @@ Código com erro.
 
 Erro localizado! Adicionando o `return` para a ultima variável ter uma resposta:
 
-```JavaScript
+```html
 <meta charset="UTF-8">
+
 <script>
     function pulaLinha() {
         document.write("<br>");
@@ -667,9 +679,9 @@ Erro localizado! Adicionando o `return` para a ultima variável ter uma resposta
         return resultado
     }
 
-    var imcCalculado = calculaImc(1.77, 75);
+var imcCalculado = calculaImc(1.77, 75);
      
-    mostra("O meu IMC é : " + imcCalculado);
+mostra("O meu IMC é : " + imcCalculado);
 </script>
 ```
 
@@ -784,8 +796,9 @@ _____
 
     }
 
-    var resultado = c("Flávio", "Almeida");
-    mostra(resultado);
+var resultado = c("Flávio", "Almeida");
+
+mostra(resultado);
 
 </script>
 ```
@@ -814,7 +827,8 @@ Função C:
 <br>Temos que ler a seguinte variável:
 
 ```
-var resultado = c("Flávio", "Almeida");`
+var resultado = c("Flávio", "Almeida");
+
 mostra(resultado);
 ```
 <br>Vamos começar a interpretar:
@@ -846,6 +860,36 @@ ______________
 
 ### Atividade: 06_01_futebol.html
 
+Inclundo `parseInt()`, neste caso, a string de `prompt` se tornará em um número, desde que, seja informado um número.
+
+![image](https://user-images.githubusercontent.com/108991648/183304865-c9f0500e-d6ac-47e0-9d4b-e07523d2dda8.png) Usuário informa um número = 10, 15, 155, 209 ...
+![image](https://user-images.githubusercontent.com/108991648/183304895-cea0b666-23c8-4ef2-825f-b21a190ccc3a.png)  Usuário informa uma palavra = chuva, sol, copo... **(Ocorre erro: NaN)**
+
+```html
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha() {
+
+        document.write("<br><br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+var vitorias = parseInt(prompt("Quais são as vitórias?"));
+var empates = parseInt(prompt("Quantos são os empates?"));
+
+var pontos = vitorias * 3 + empates;
+
+mostra("Os pontos do seu time:" + pontos);
+</script>
+```
+
 Resultado:
 
 ![image](https://user-images.githubusercontent.com/108991648/183223378-7a99cb7f-d231-4ff5-bc71-09694238ff38.png)
+___________
+
