@@ -1042,4 +1042,101 @@ if (idade >= 18 && temCarteira == "S"){
 ```
 ____
 
+### Atividade: 06_13_jogo_adivinha.html
+
+- [x] Criar função sorteia
+
+1. Você pode criar uma função sorteia que recebe um número n e sorteia um número entre 0 a n, retornando esse valor. Dessa forma, em vez de escrever `var numeroPensado = Math.round(Math.random() * n);`, você escreveria `var numeroPensado = sorteia(n);`. Faça essa modificação, criando a nova função e utilize-a.
+
+2. Faça com que seu jogo mostre, quando o usuário errar a tentativa, se o número que ele chutou era maior ou menor ao número pensado pelo programa
+
+Meu código:
+```html
+<meta charset="UTF-8">
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function sorteia() {
+        var dados = Math.round(Math.random() * 10   );
+        return dados
+    }
+
+var numeroPensado = sorteia();
+
+var chute = parseInt(prompt("Já pensei. Qual você acha que é?"));
+
+    if(chute == numeroPensado) {
+
+        mostra("Uau! Você acertou, pois eu pensei no " + numeroPensado);
+    
+    } else {
+        if (chute < numeroPensado){
+            mostra("Você errou! O número que pensei foi " + numeroPensado + ". Seu número " + chute + " é menor que " + numeroPensado);
+        } else { 
+            mostra("Você errou! O número que pensei foi " + numeroPensado + ". Seu número " + chute + " é maio que " + numeroPensado);
+        }
+    }
+
+</script>
+```
+
+Código do instrutor:
+
+```html
+<meta charset="UTF-8">
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function sorteia(n) {
+
+        return Math.round(Math.random() * n);
+    }    
+
+    var numeroPensado = sorteia(10);
+
+
+     var chute = parseInt(prompt("Já pensei. Qual você acha que é?"));
+
+    if(chute == numeroPensado) {
+
+        mostra("Uau! Você acertou, pois eu pensei no " + numeroPensado);
+    } else {
+
+        if(chute > numeroPensado) {
+
+            mostra("Você errou! Seu chute é maior que o número pensado!");
+
+        } else {
+
+            mostra("Você errou! Seu chute é menor que o número pensado!");
+        }
+
+    }
+</script>
+```
+
+_______
+
+
+
 

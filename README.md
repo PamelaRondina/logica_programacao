@@ -196,6 +196,7 @@ ____
 
 Comandos: Html | Descrição
 :-|:-
+!+enter| Estrutura básica do Html
 < > | São tags
 < / > | Fechar uma tag
 < a > | Âncora
@@ -205,6 +206,15 @@ Comandos: Html | Descrição
 < hr > | Risco 
 < big > | Aumenta o tamanho da letra
 < h1 align="center" > | Título 1 + centralizado
+< !--"texto"--> | Comentário
+< header > | Cabeçalho
+< section > | seções
+< ul > | Lista não ordenada (com pontinhos)
+< ol > | Lista ordenada (com números )
+< li > | Dentro da Lista são os elementos
+< p > | Parágrafo
+lorem | Transformará em um texto para referência
+< strong > | texto em negrito, introduzir valor R$10.00
 ------ |  -------
 href = | Atributo
 ------ |  -------
