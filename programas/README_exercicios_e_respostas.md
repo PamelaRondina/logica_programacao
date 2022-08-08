@@ -1002,5 +1002,44 @@ if(numero == chute){
 </script>
 ```
 
-_____________
+____________
+
+### Atividade 06_11_onde_esta_o_erro_de_braga.html
+
+Esta atividade, de acordo com a resposta do usuário, deve exibir a mensagem "Pode dirigir" ou "Não pode dirigir".
+
+- [x] Permitido dirigir acima dos 18 anos ou mais;
+- [x] E que possua carteira de motorista.
+
+Código inicial:
+
+```html
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var idade = parseInt(prompt("Qual é sua idade?"));
+    var temCarteira = prompt("Tem carteira? Responda S ou N");
+
+</script>
+```
+
+Código adicionado, antes de `</script>`
+```html
+if (idade >= 18 && temCarteira == "S"){
+        mostra("Pode dirigir!");
+    }else {
+        mostra("Não pode dirigir!");
+    }
+```
+____
+
 
