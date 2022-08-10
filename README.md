@@ -195,6 +195,7 @@ calculaImc(1.72, 68);
 ____
 
 **Comandos: JavaScript** | **Descrição**
+-|-
 // | Comentário
 = | Recebe
 == | Igual
