@@ -195,6 +195,7 @@ calculaImc(1.72, 68);
 ____
 
 **Comandos: JavaScript** | **Descrição**
+-|-
 // | Comentário
 = | Recebe
 == | Igual
@@ -209,7 +210,7 @@ prompt("texto") | Pop up para o usuário inserir um resultado, retorna o resulta
 parseInt("texto")| Converte uma string para número
 if("texto") { "texto" } | Se 
 else | Se não
-while | Enquanto
+while | Enquanto / repetição
 Math.round() | arredondar o resultado
 Math.random() | Número aleatório
 console.log() | Resultado aparece no console do Browser

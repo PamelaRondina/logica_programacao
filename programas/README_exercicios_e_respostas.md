@@ -1137,6 +1137,45 @@ Código do instrutor:
 
 _______
 
+### Atividade: 07_01_ano_copa.html
+
+```html
+<meta charset="UTF-8">
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var limite = parseInt(prompt("Pesquisa: `Quais anos são bissextos?`. Escolha uma data limite: "));
+
+    var anoCopa = 1930;
+
+    while(anoCopa <= limite) {
+        mostra("Teve copa em: " + anoCopa);
+        anoCopa = anoCopa + 4;
+    }
+
+    mostra("FIM");
+
+</script>
+```
+
+Resultado:
+
+Alerta + resposta usuário +
+
+![image](https://user-images.githubusercontent.com/108991648/184470237-d4fcc7e1-401a-4d96-9324-c8f7c9aa9be7.png)
+
+__________________
+
 
 
 

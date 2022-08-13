@@ -1,0 +1,28 @@
+
+<meta charset="UTF-8">
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var escolha = parseInt(prompt("Pesquisa: `Quais são os números pares?`. Escolh aum número limite: "));
+
+    var numeroPar = 0;
+
+    while(numeroPar <= escolha) {
+        mostra("Número par: " + numeroPar);
+       numeroPar = numeroPar + 2;
+    }
+
+    mostra("FIM");
+
+</script>
+
