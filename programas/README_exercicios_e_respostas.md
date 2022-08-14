@@ -1176,6 +1176,82 @@ Alerta + resposta usuário +
 
 __________________
 
+### Atividade: 07_04_numeros_30_40.html
+
+Imprimir os números de 30 até 40, porém, não mostrar 33 e 37.
 
 
+```html
+<meta charset="UTF-8">
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var contador = 20;
+
+    while(contador <= 40) {
+
+        if( contador == 33 ) {
+        contador = contador + 1;
+        }
+        else if(contador == 37) {    
+            contador = contador + 1;
+        }
+        else {
+        mostra(contador);
+        contador = contador + 1; 
+        }
+      }
+
+    mostra("FIM");
+
+</script>
+```
+
+Resultado:
+
+![image](https://user-images.githubusercontent.com/108991648/184537269-cf544f40-98c1-47f3-83f1-70219c660b8b.png)
+
+__________
+
+### Atividade: 07_05_numeros_20_0.html
+
+Imprimir os números de 20 até 0.
+
+```html
+<meta charset="UTF-8">
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var contador = 20;
+
+    while(contador >= 0) {
+        mostra(contador);
+        contador = contador - 1; 
+        }
+      
+
+    mostra("FIM");
+
+</script>
+```
+
+Resultado:
+
+![image](https://user-images.githubusercontent.com/108991648/184537461-f9154402-bba9-4062-b64a-d16ba8d65799.png)
+
+_________
 
