@@ -1256,3 +1256,43 @@ Resultado:
 _________
 
 Atividade: 07_06_copa_data_limite.html
+
+Exibir mensagem final: ""Ufa! Esses foram os anos de copa até"
+
+```html
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+var anoCopa = 1930;
+var limite = parseInt(prompt("Qual é o ano limite?"));
+
+    while(anoCopa <= limite) {
+
+        mostra(anoCopa + " tem copa!");
+        anoCopa = anoCopa + 4;
+    }
+
+mostra("<br>" + "Ufa! Esses foram os anos de copa até " + limite);
+
+</script>
+```
+Resultado: 
+
+![image](https://user-images.githubusercontent.com/108991648/184724977-ab93517a-db0e-41e7-be15-3b32131e4ccf.png)
+
+__________
+
+### Atividade: 07_07_simulando_tela_login.html
+
+
