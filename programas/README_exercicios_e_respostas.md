@@ -1345,19 +1345,128 @@ O usuário vai incluir o login e senha, após 1 tentativa o programa não funcio
 FOR:
 
 ```javascript
-for(espaço1; espaço2; espaço3) {
+for(var multiplicador = 1; multiplicador <= 10; multiplicador++) {
 
     mostra(7 * multiplicador);
-    multiplicador = multiplicador + 1
+
 }
+
+mostra("FIM");
 ```
 
 WHILE:
 
 ```javascript
+var multiplicador = 1;
+
 while(multiplicador <= 10) {
 
     mostra(7 * multiplicador);
     multiplicador = multiplicador + 1
 }
+
+mostra("FIM");
 ```
+
+________________________
+
+### Atividade: 07_11_de_for_para_while.html
+
+Faça de For para While
+
+FOR
+```javascript
+
+for( var i = 0; i < 10; i++ ) {
+    alert( "O resultado é " + (2 * i) );
+}
+
+```
+
+WHILE
+
+```javascript
+var i = 1;
+
+while(i <=10) {
+
+    alert("O resultado é " + (2 * i))
+    i = i + 1
+}
+
+mostra("FIM");
+```
+
+OU 
+
+```javascript
+var i = 0;
+while( i < 10) {
+    alert( "O resultado é " + (2 * i) );
+    i++;    
+}
+```
+
+<hr>
+
+### Atividade: 07_12_media_idade_familiares.html
+
+Faça um programa:
+
+- [x] Leia a quantidade de familiares que o usuário desejar;
+- [x] Some todos os valores
+- [x] Faça a média
+
+```javascript
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br><br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+// Quantidade de familiares
+var totalPessoas = parseInt(prompt("Qual é a quantidade de pessoas?"));
+
+var numero = 1 
+
+// Esta var fora de while par poder somar!
+var totalIdades = 0
+
+while(numero <= totalPessoas) {
+    var idade = parseInt(prompt("Informe a idade: "));
+    totalIdades = totalIdades + idade;
+    numero++;
+}
+
+mostra("O total das idades é de: " + totalIdades);
+
+var mediaIdades = totalIdades/totalPessoas
+
+mostra("A média das idades é de: " + mediaIdades);
+
+
+mostra("Fim!")
+
+</script>
+```
+
+Resultado:
+
+O total das idades é de: 60
+
+A média das idades é de: 20
+
+Fim!
+
+<hr>
+
+### Atividade: 07_

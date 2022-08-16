@@ -195,7 +195,7 @@ calculaImc(1.72, 68);
 
 [Comandos em HTML](https://github.com/PamelaRondina/step-by-step/blob/main/html/comandos_html.md)
 
-[Comandos em JavaScipt]()
+[Comandos em JavaScipt](https://github.com/PamelaRondina/step-by-step/blob/main/javascript/comandos_javascript.md)
 
 ____
 
