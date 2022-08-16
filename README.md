@@ -191,28 +191,11 @@ calculaImc(1.72, 68);
 
 </script>
 ```
-[Comandos em html](https://github.com/PamelaRondina/step-by-step/blob/main/html/comandos_html.md)
+<hr>
+
+[Comandos em HTML](https://github.com/PamelaRondina/step-by-step/blob/main/html/comandos_html.md)
+
+[Comandos em JavaScipt]()
+
 ____
 
-**Comandos: JavaScript** | **Descrição**
--|-
-// | Comentário
-= | Recebe
-== | Igual
-!= | Diferente
-&& | E
-{ } | Bloco
-< script > | Iniciar linguagem JavaScript
-var | variável
-**Funções**| ---------
-alert("texto") | Cria um *pop up* de alerta
-prompt("texto") | Pop up para o usuário inserir um resultado, retorna o resultado como string
-parseInt("texto")| Converte uma string para número
-if("texto") { "texto" } | Se 
-else | Se não
-while | Enquanto / repetição
-Math.round() | arredondar o resultado
-Math.random() | Número aleatório
-console.log() | Resultado aparece no console do Browser
-**Erros**| ----------
-NaN | Não é um número

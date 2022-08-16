@@ -1295,4 +1295,69 @@ __________
 
 ### Atividade: 07_07_simulando_tela_login.html
 
+O usuário vai incluir o login e senha, após 1 tentativa o programa não funciona mais. Passe o exercício para 3 tentativas. 
 
+> Atenção: Se ele acerta na primeira tentativa, não faz sentido continuar a perguntar seu login e senha.
+
+```html
+<meta charset="UTF-8">
+
+<script>
+
+    var loginCadastrado = "alura";
+    var senhaCadastrada = "alura321";
+
+    var maximoTentativas = 3;
+    var tentativaAtual = 1;
+
+    while(tentativaAtual <= maximoTentativas) {
+
+        var loginInformado = prompt("Informe seu login");
+        var senhaInformada = prompt("Informe sua senha");
+
+        if( loginCadastrado == loginInformado && senhaCadastrada == senhaInformada ) {
+
+            alert("Bem-vindo ao sistema, " + loginInformado);
+
+            tentativaAtual = maximoTentativas; // acertou, então faço o gasto de todas as tentativas para sair do loop. Lá embaixo vai incrementar + 1! 
+
+        } else {
+
+            if (tentativaAtual == 3) {
+                alert("Número permitido de tentativas ultrapassado!");
+            } else {
+                alert("Login inválido. Tente novamente");
+            }
+        }
+
+       // vai para a próxima tentativa, 
+       // tentativaAtual = tentativaAtual++
+        tentativaAtual = tentativaAtual +1  
+    }
+
+</script>
+```
+
+<hr>
+
+### Atividade: 07_08_tabuada_while_and_for.html
+
+FOR:
+
+```javascript
+for(espaço1; espaço2; espaço3) {
+
+    mostra(7 * multiplicador);
+    multiplicador = multiplicador + 1
+}
+```
+
+WHILE:
+
+```javascript
+while(multiplicador <= 10) {
+
+    mostra(7 * multiplicador);
+    multiplicador = multiplicador + 1
+}
+```
