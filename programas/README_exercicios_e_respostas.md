@@ -1547,3 +1547,44 @@ Criar 3 linhas com 10 ("*")
 
 <hr>
 
+### Atividade: 08_01_adivinha_mais.html
+
+- [x] `<input/>` tag NÂO possui fechamento, cria uma lacuna de preenchimento
+
+- [x] `<button>` tag POSSUI fechamento, cria um botão, texto sem **" "** 
+
+- [x] `input.value` compara com a lacuna input criada
+
+- [x] `button.onclick()` compara ao clicar no botão criado
+
+- [x] `input.focus();` o cursos do mouse retorna para a lacuna criada pelo input/  
+
+
+```html
+<meta charset="UTF-8">
+
+<input/>
+
+<button>Compare com o meu segredo</button>
+
+<script>
+    var segredo = 2;
+
+    var input = document.querySelector("input");
+
+    function verifica(){
+       if(input.value == segredo) {
+        alert("Acesso liberado!")
+
+    } else {
+        alert("Acesso negado!! Erro de segredo!!");
+    } 
+    input.value = " ";
+    input.focus();
+    }
+    
+    var button = document.querySelector("button");
+    button.onclick = verifica;
+    ```
+<hr>
+
