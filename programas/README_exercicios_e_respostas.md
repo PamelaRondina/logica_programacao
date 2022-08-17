@@ -1469,4 +1469,81 @@ Fim!
 
 <hr>
 
-### Atividade: 07_
+### Atividade: 07_15_jogo_adivinha.html
+
+Fornecer ao usuário 3 tentativas para descobrir o número.
+
+```javascript
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br><br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+}
+
+var numeroPensado = Math.round(Math.random() * 10);
+
+var tentativas = 1;
+
+while(tentativas <= 3) {
+
+    var chute = parseInt(prompt("Você tem 3 chances, adivinhe o número que estou pensando... Dica: 0 até 10"));
+
+    if(chute == numeroPensado) {
+
+        mostra("Você ACERTOU, o número pensado era " + numeroPensado);
+        break;
+
+    } else {
+
+        mostra("Você ERROU! O numero pensado era:  " + numeroPensado);
+    }
+
+    tentativas++;
+}
+
+mostra("FIM");
+</script>
+```
+
+<hr>
+
+### Atividade: 07_17_estrelas.html
+
+Criar 3 linhas com 10 ("*")
+
+```javascript
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+    for(var linha = 1; linha <=3; linha++) {
+        for(var coluna = 1; coluna <= 10; coluna++) {
+            document.write("*");
+        }
+        pulaLinha();
+    }
+
+</script>
+```
+
+<hr>
+

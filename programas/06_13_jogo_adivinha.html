@@ -20,7 +20,7 @@
 
 var numeroPensado = sorteia();
 
-var chute = parseInt(prompt("Já pensei. Qual você acha que é?"));
+var chute = parseInt(prompt("Já pensei. Qual número você acha que é?"));
 
     if(chute == numeroPensado) {
 
@@ -30,7 +30,7 @@ var chute = parseInt(prompt("Já pensei. Qual você acha que é?"));
         if (chute < numeroPensado){
             mostra("Você errou! O número que pensei foi " + numeroPensado + ". Seu número " + chute + " é menor que " + numeroPensado);
         } else { 
-            mostra("Você errou! O número que pensei foi " + numeroPensado + ". Seu número " + chute + " é maio que " + numeroPensado);
+            mostra("Você errou! O número que pensei foi " + numeroPensado + ". Seu número " + chute + " é maior que " + numeroPensado);
         }
     }
 
