@@ -1585,6 +1585,58 @@ Criar 3 linhas com 10 ("*")
     
     var button = document.querySelector("button");
     button.onclick = verifica;
-    ```
+```
+
+<hr>
+
+### Atividade 09_01_adivinha_mais_atualizado.html
+
+Neste exercícios vamos ver sobre array [l, i, s, t, a, s]
+
+- [x] `var segredos = [5, 7, 10, 2];` uma array, lista
+- Arrys iniciam sua contagem a partir do 0, no exemplo acima temos:
+   * 1º item: posição 0 == 5;
+   * 2º item: posição 1 == 7;
+   * 3º item: posição 2 == 10;
+   * 4º item: posição 3 == 2
+- [x] `segredos.length` retorna a quantidade de elementos que uma array possui
+
+```html
+<meta charset="UTF-8">
+
+<input/>
+
+<button>Compare com o meu segredo</button>
+
+<script>
+
+    var segredos = [5, 7, 10, 2];
+
+    var input = document.querySelector("input");
+    input.focus();
+    
+    function verifica(){
+       var achou = false;
+
+       for(var posicao = 0; posicao < segredos.length; posicao++){
+        if(input.value == segredos[posicao]) {
+            alert("Acesso liberado!")
+            achou = true;
+            break;
+        }
+               
+    } 
+    
+    alert("Acesso negado!! Erro de segredo!!");
+    
+    input.value = "";
+     
+    }
+    
+    var button = document.querySelector("button");
+    button.onclick = verifica;
+
+</script>
+```
 <hr>
 
