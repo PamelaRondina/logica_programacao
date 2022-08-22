@@ -197,5 +197,6 @@ calculaImc(1.72, 68);
 
 [Comandos em JavaScipt](https://github.com/PamelaRondina/step-by-step/blob/main/javascript/comandos_javascript.md)
 
+Curso finalizado, duração de 16 horas 
 ____
 
