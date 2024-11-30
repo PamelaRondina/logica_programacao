@@ -1,0 +1,22 @@
+<meta cherset="UTF-8">
+
+<script>
+    function pulaLinha() {
+        document.write("<br><br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+var numero = Math.round(Math.random() * 5);
+var chute = parseInt(prompt("Tente adivinhar no número que estou pensando..."))
+
+if(numero == chute){
+    mostra("Você acertou! Também pensei no " + numero);
+} else {
+    mostra("Ih! Não foi dessa vez! O número que pensei foi " + numero)
+}
+
+</script>
