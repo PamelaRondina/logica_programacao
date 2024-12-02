@@ -107,3 +107,111 @@ Nome: Jesuítas e Canibais
 **Codificação:** processo de expressar um algoritmo usando linguagem de programação.
 
 **Programa de Computador:** o resultado da codificação de um algoritmo em uma linguagem computacional 
+
+----------
+
+### Capítulo 02 - Tópicos preliminares
+
+Diferença entre dado e informação: 25 de dezembro é uma data, ou seja, um dado. Quando se fala que é o dia do Natal, estamos agregando valor ao dado, é uma informação.
+
+#### Tipos Primitivos
+
+**Inteiro** números inteiros: negativos, nulos ou positivos.
+
+a. ele tem 5 irmãos;
+b. eu comi 2 pães hoje;
+c. Já conheci 3 países.
+
+**Real** números reais: positivos: negativos, nulos ou positivos.
+
+a. eu tenho 1.70 de altura;
+b. a receita pede 1.5kg de mussarela;
+c. tenho apenas R$ 52,25 na conta
+
+**Caracter** toda e qualquer informação composta de um conjunto de caracteres alfanuméricos: numéricos (0...9), alfabéticos (A...Z, a...z) e especiais (#, @, !, ?)
+
+a. Ela disse: "Está na mesa!"
+b. Eu li a placa: "Leve um livro e deixe outro."
+
+**Lógico** qualquer informação que pode assumir apenas duas situações:
+
+a. a porta pode estar aberta ou fechada
+b. a lâmpada pode estar ligada ou desligada
+
+**Constantes** não sofre variação com o tempo, seu dado tem o mesmo valor do início ao fim: V ou F.
+
+a. "Não pise na grama!"
+b. V ou F
+c. Sim ou Não
+
+**Variável** dado que tem a possibilidade de ser alterado em algum momento no decorrer do tempo.
+
+a. a coração do dólar
+b. o peso de uma pessoa
+
+os nomes de uma variável são os *identificadores* e possuem regras:
+- começar por um caractere alfabético
+- podem ser seguidos por mais caracteres alfabéticos
+- não utiliza-se caracteres especiais
+- não possui espaço
+- não pode conter acentos
+- 
+--------------
+
+#### Exercícios de fixação
+
+1.1 Determine qual é o tipo primitivo de informação presente nas sentenças a seguir:
+
+a) A placa "Pare!" tinha 2 furos de bala.
+    - Tipo primitivo 1: String (ou caractere) → "Pare!" é um texto.
+    - Tipo primitivo 2: Inteiro (int) → 2 é um valor numérico inteiro.
+    
+b) Josefina subiu 5 degraus para pegar uma maçã boa.
+    - Tipo primitivo 1: Inteiro (int) → 5 é um valor numérico inteiro.
+    
+c) Alberta levou 3,5 horas para chegar ao hospital onde concebeu uma garota.
+    - Tipo primitivo 1: Real (float) → 3.5 é um valor numérico real
+    
+     
+d) Astrogilda mandou pintar em um lote de 10 camisetas: "Preserve o meio ambiente!", e ficou devendo R$ 150,80 para a estamparia Pinte e Borde a ser pago em 3 parcelas.
+    - Tipo primitivo 1: Inteiro (int) → 10 é um valor numérico inteiro.
+    - Tipo primitivo 2: String (ou caractere) → "Preserve o meio ambiente!" é um texto.
+    - Tipo primitivo 3: Real (float) → 150.80 é um valor numérico real.
+    
+    
+e) Felisberto recebeu sua 18ª medalha por ter alcançado a marca de 57,3 segundos nos 100 metros rasos.
+    - Tipo primitivo 1: Inteiro (int) → 18, é um valor numérico inteiro.
+    - Tipo primitivo 2: Ponto flutuante (float) → 57,3, é um valor numérico real
+    - Tipo primitivo 3: Inteiro (int) → 100, é um valor numérico inteiro
+    
+f) Assinale os identificadores válidos:
+
+- [ ] (X)
+- [x] U2
+- [ ] AH!
+- [ ] "ALUNO"
+- [ ] #55
+- [ ] KM/L
+- [x] UYT
+- [x] ASDRUBAL
+- [ ] AB*C
+- [ ] O&O
+- [ ] P{O}
+- [x] B52
+- [x] Rua
+- [x] CEP
+- [ ] dia/mês
+
+g) Supondo que as variáveis NB, NA, NMat, SX sejam utilizadas para armazenar a nota do aluno, o nome do aluno, o número da matrícula e o sexo, declare-as corretamente, associando o tipo primitivo adequado ao dado que será armazenado.
+
+real | NB: nota do aluno
+caracter - string | NA: nome do aluno, 
+inteiro | NMat: número da matrícula 
+lógico | SX: sexo
+
+h) Encontre os erros da seguinte declaração de variáveis:
+
+inteiro: **Endereço**, NFilhos;
+real: XPTO, C, Peso, **R$**;
+caracter: Idade, X;
+lógico: **Lâmpada**, C;
